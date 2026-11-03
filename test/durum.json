@@ -1,0 +1,137 @@
+{
+  "updated": "2026-11-03T23:49:14.728162",
+  "groupUrl": "https://groups.google.com/g/svkl-test",
+  "groupEmail": "svkl-test@googlegroups.com",
+  "games": [
+    {
+      "id": "neonflow",
+      "name": "Neon Flow",
+      "pkg": "com.savkili.neonflow",
+      "planned": "liste",
+      "note": "Üretim başvurusu",
+      "title": "Neon Flow: Rhythm Ball",
+      "tracks": {
+        "production": [],
+        "beta": [],
+        "alpha": [
+          {
+            "name": "2.5.1 (19)",
+            "versionCodes": [
+              "19"
+            ],
+            "status": "completed"
+          }
+        ],
+        "internal": [
+          {
+            "name": "2.5.1 (19)",
+            "versionCodes": [
+              "19"
+            ],
+            "status": "completed"
+          }
+        ]
+      },
+      "alphaGroups": [],
+      "iconUrl": "https://lh3.googleusercontent.com/kVuOFxB-zMGRBvaRaJKv0lqyXbcWvEhw7n_VCiydmgdaazZvS8ovH_ojYyBp_Ii00Hw=s256",
+      "icon": "ok"
+    },
+    {
+      "id": "spectra",
+      "name": "Spectra",
+      "pkg": "com.spectra.spectra",
+      "planned": "liste",
+      "note": "Üretim başvurusu",
+      "title": "Spectra: Space Shooter",
+      "tracks": {
+        "production": [],
+        "beta": [],
+        "alpha": [
+          {
+            "name": "3.0.2 (32)",
+            "versionCodes": [
+              "32"
+            ],
+            "status": "completed"
+          }
+        ],
+        "internal": [
+          {
+            "name": "3.0.2 (32)",
+            "versionCodes": [
+              "32"
+            ],
+            "status": "completed"
+          }
+        ]
+      },
+      "alphaGroups": [],
+      "iconUrl": "https://lh3.googleusercontent.com/XIAlAkt392Iez5ie5z8RC2Z8SV7Rr538NRF_Ejoh8n3vMRb1mYY0nlqyeVhsn5ErGp-f=s256",
+      "icon": "ok"
+    },
+    {
+      "id": "stickjump",
+      "name": "Stick Jump",
+      "pkg": "com.stickjump",
+      "planned": "grup",
+      "title": "Stick Jump",
+      "tracks": {
+        "production": [],
+        "beta": [],
+        "alpha": [
+          {
+            "name": "2.0.0 (6)",
+            "versionCodes": [
+              "6"
+            ],
+            "status": "completed"
+          }
+        ],
+        "internal": [
+          {
+            "name": "3 (1.0.0)",
+            "versionCodes": [
+              "3"
+            ],
+            "status": "completed"
+          }
+        ]
+      },
+      "alphaGroups": [],
+      "iconUrl": "https://lh3.googleusercontent.com/yob6Un5plihZkXc_mrIDzUFKWnTWw2t2t7idNocKr17Z7otzArbC1rYeNL3QUor6jNM=s256",
+      "icon": "ok"
+    },
+    {
+      "id": "vanta",
+      "name": "Vanta",
+      "pkg": "com.svklstudio.umbrift",
+      "planned": "grup",
+      "title": "Vanta: Shadow Elf Action",
+      "tracks": {
+        "production": [],
+        "beta": [],
+        "alpha": [
+          {
+            "name": "1.0.0 (5)",
+            "versionCodes": [
+              "5"
+            ],
+            "status": "completed"
+          }
+        ],
+        "internal": [
+          {
+            "name": "1.0.0 (5)",
+            "versionCodes": [
+              "5"
+            ],
+            "status": "completed"
+          }
+        ]
+      },
+      "alphaGroups": [],
+      "iconUrl": "https://lh3.googleusercontent.com/Zr5wvSaw1OA2tH3_YIbxZZ7CvHqVT_RCU1Kr1n-recdmiUV9NkHQt6m3Ab8WA96gUrI=s256",
+      "icon": "ok"
+    }
+  ]
+}
