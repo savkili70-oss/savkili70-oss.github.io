@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T23:49:14.728162",
+  "updated": "2026-11-04T17:41:51.143835",
   "groupUrl": "https://groups.google.com/g/svkl-test",
   "groupEmail": "svkl-test@googlegroups.com",
   "games": [
@@ -131,6 +131,38 @@
       },
       "alphaGroups": [],
       "iconUrl": "https://lh3.googleusercontent.com/Zr5wvSaw1OA2tH3_YIbxZZ7CvHqVT_RCU1Kr1n-recdmiUV9NkHQt6m3Ab8WA96gUrI=s256",
+      "icon": "ok"
+    },
+    {
+      "id": "apkpaylas",
+      "name": "APK Share",
+      "pkg": "com.svklstudio.apkpaylas",
+      "planned": "liste",
+      "title": "APK Share: Send Apps via QR",
+      "tracks": {
+        "production": [],
+        "beta": [],
+        "alpha": [
+          {
+            "name": "1.1.0",
+            "versionCodes": [
+              "2"
+            ],
+            "status": "draft"
+          }
+        ],
+        "internal": [
+          {
+            "name": "1.1.0",
+            "versionCodes": [
+              "2"
+            ],
+            "status": "completed"
+          }
+        ]
+      },
+      "alphaGroups": [],
+      "iconUrl": "https://lh3.googleusercontent.com/IxeSWqCfQjtP0M1YWxx3KT3v-Eol_UCV1Bh4jXjcgzpHFExmueooyswv6Mj-h2eZJhtnF0Ix4lr-dWhj8-G0vw=s256",
       "icon": "ok"
     }
   ]
