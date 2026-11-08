@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T18:08:33.312665",
+  "updated": "2026-11-08T19:33:14.080719",
   "groupUrl": "https://groups.google.com/g/svkl-test",
   "groupEmail": "svkl-test@googlegroups.com",
   "games": [
@@ -15,18 +15,18 @@
         "beta": [],
         "alpha": [
           {
-            "name": "2.5.1 (19)",
+            "name": "2.6.0 (20)",
             "versionCodes": [
-              "19"
+              "20"
             ],
             "status": "completed"
           }
         ],
         "internal": [
           {
-            "name": "2.5.1 (19)",
+            "name": "2.6.0 (20)",
             "versionCodes": [
-              "19"
+              "20"
             ],
             "status": "completed"
           }
@@ -44,7 +44,15 @@
       "note": "Üretim başvurusu",
       "title": "Spectra: Space Shooter",
       "tracks": {
-        "production": [],
+        "production": [
+          {
+            "name": "3.0.2 (32)",
+            "versionCodes": [
+              "32"
+            ],
+            "status": "completed"
+          }
+        ],
         "beta": [],
         "alpha": [
           {
@@ -73,7 +81,7 @@
       "id": "stickjump",
       "name": "Stick Jump",
       "pkg": "com.stickjump",
-      "planned": "grup",
+      "planned": "liste",
       "title": "Stick Jump",
       "tracks": {
         "production": [],
@@ -97,9 +105,7 @@
           }
         ]
       },
-      "alphaGroups": [
-        "svkl-test@googlegroups.com"
-      ],
+      "alphaGroups": [],
       "iconUrl": "https://lh3.googleusercontent.com/yob6Un5plihZkXc_mrIDzUFKWnTWw2t2t7idNocKr17Z7otzArbC1rYeNL3QUor6jNM=s256",
       "icon": "ok"
     },
@@ -107,7 +113,7 @@
       "id": "vanta",
       "name": "Vanta",
       "pkg": "com.svklstudio.umbrift",
-      "planned": "grup",
+      "planned": "liste",
       "title": "Vanta: Shadow Elf Action",
       "tracks": {
         "production": [],
@@ -131,9 +137,7 @@
           }
         ]
       },
-      "alphaGroups": [
-        "svkl-test@googlegroups.com"
-      ],
+      "alphaGroups": [],
       "iconUrl": "https://lh3.googleusercontent.com/Zr5wvSaw1OA2tH3_YIbxZZ7CvHqVT_RCU1Kr1n-recdmiUV9NkHQt6m3Ab8WA96gUrI=s256",
       "icon": "ok"
     },
@@ -141,7 +145,7 @@
       "id": "apkpaylas",
       "name": "APK Share",
       "pkg": "com.svklstudio.apkpaylas",
-      "planned": "grup",
+      "planned": "liste",
       "title": "APK Share: Send Apps via QR",
       "tracks": {
         "production": [],
@@ -152,7 +156,7 @@
             "versionCodes": [
               "2"
             ],
-            "status": "draft"
+            "status": "completed"
           }
         ],
         "internal": [
@@ -165,9 +169,7 @@
           }
         ]
       },
-      "alphaGroups": [
-        "svkl-test@googlegroups.com"
-      ],
+      "alphaGroups": [],
       "iconUrl": "https://lh3.googleusercontent.com/IxeSWqCfQjtP0M1YWxx3KT3v-Eol_UCV1Bh4jXjcgzpHFExmueooyswv6Mj-h2eZJhtnF0Ix4lr-dWhj8-G0vw=s256",
       "icon": "ok"
     }
