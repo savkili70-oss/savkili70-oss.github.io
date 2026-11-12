@@ -1,0 +1,81 @@
+:root {
+  --bg: #05020d;
+  --panel: #0f0820;
+  --line: #2a1b4a;
+  --text: #eef2ff;
+  --soft: #b8b3d6;
+  --cyan: #00e5ff;
+  --pink: #ff2bd6;
+  --gold: #ffd84a;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; }
+
+body {
+  background: radial-gradient(1200px 600px at 20% -10%, #2a0f55 0%, transparent 60%),
+    radial-gradient(900px 500px at 100% 10%, #3a0b3f 0%, transparent 55%), var(--bg);
+  color: var(--text);
+  font-family: "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+a { color: var(--cyan); }
+
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+
+header { padding: 22px 0; display: flex; align-items: center; gap: 12px; }
+header img { width: 40px; height: 40px; border-radius: 10px; }
+header .ad { font-family: "Baloo 2", sans-serif; font-weight: 800; font-size: 22px; letter-spacing: .5px; }
+header nav { margin-left: auto; display: flex; gap: 18px; font-weight: 700; }
+header nav a { color: var(--soft); text-decoration: none; }
+header nav a:hover { color: var(--text); }
+
+.hero { display: grid; grid-template-columns: 1.1fr 1fr; gap: 36px; align-items: center; padding: 30px 0 50px; }
+.hero h1 {
+  font-family: "Baloo 2", sans-serif; font-size: clamp(42px, 7vw, 72px); line-height: 1; margin: 0 0 12px;
+  color: #fff; text-shadow: 0 0 8px var(--cyan), 0 0 24px var(--cyan), 0 0 48px rgba(0,229,255,.5);
+}
+.hero h1 span { text-shadow: 0 0 8px var(--pink), 0 0 24px var(--pink), 0 0 48px rgba(255,43,214,.5); }
+.hero p.lead { font-size: 20px; color: var(--soft); margin: 0 0 26px; }
+.hero .shots { display: flex; gap: 14px; justify-content: center; }
+.hero .shots img { width: 46%; max-width: 230px; border-radius: 22px; border: 2px solid var(--cyan); box-shadow: 0 0 30px rgba(0,229,255,.35); }
+.hero .shots img + img { border-color: var(--pink); box-shadow: 0 0 30px rgba(255,43,214,.35); margin-top: 40px; }
+
+.play {
+  display: inline-flex; align-items: center; gap: 12px; padding: 14px 26px; border-radius: 999px;
+  background: #0b1a24; color: #fff; text-decoration: none; font-weight: 800; font-size: 18px;
+  border: 2px solid var(--cyan); box-shadow: 0 0 18px rgba(0,229,255,.45), inset 0 0 18px rgba(0,229,255,.15);
+}
+.play:hover { box-shadow: 0 0 28px rgba(0,229,255,.7), inset 0 0 18px rgba(0,229,255,.25); }
+.play svg { width: 22px; height: 22px; }
+.note { color: var(--soft); font-size: 14px; margin-top: 10px; }
+
+section h2 { font-family: "Baloo 2", sans-serif; font-size: 30px; margin: 0 0 18px; color: var(--gold); text-shadow: 0 0 14px rgba(255,216,74,.45); }
+
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 50px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 20px; }
+.card b { display: block; font-size: 18px; margin-bottom: 6px; }
+.card p { margin: 0; color: var(--soft); }
+
+.gallery { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 50px; }
+.gallery img { width: 100%; border-radius: 14px; border: 1px solid var(--line); }
+
+.doc { max-width: 780px; margin: 0 auto; padding: 10px 20px 60px; }
+.doc h1 { font-family: "Baloo 2", sans-serif; font-size: 40px; margin: 10px 0; color: #fff; text-shadow: 0 0 18px rgba(0,229,255,.5); }
+.doc h2 { font-family: "Baloo 2", sans-serif; font-size: 24px; margin: 30px 0 8px; color: var(--gold); }
+.doc p, .doc li { color: #d9d6f2; }
+.doc .tarih { color: var(--soft); font-size: 14px; }
+.doc hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
+
+footer { border-top: 1px solid var(--line); padding: 26px 0; color: var(--soft); font-size: 14px; }
+footer .wrap { display: flex; gap: 18px; flex-wrap: wrap; }
+footer a { color: var(--soft); }
+
+@media (max-width: 820px) {
+  .hero { grid-template-columns: 1fr; text-align: center; padding-top: 10px; }
+  .cards { grid-template-columns: 1fr; }
+  .gallery { grid-template-columns: repeat(2, 1fr); }
+  header nav { gap: 12px; font-size: 14px; }
+}
